@@ -28,15 +28,15 @@ export default function Navbar() {
           <a className="flex items-center gap-3 shrink-0 group" href="/">
             <div className="w-8 h-8 md:w-10 md:h-10 rounded-full overflow-hidden border-2 border-white shadow-sm bg-transparent flex items-center justify-center shrink-0 transition-transform duration-500 group-hover:scale-105">
               <img
-                src="/logo.jpg"
-                alt="Kevlin & Company"
+                src="/logo.jpeg"
+                alt="Arch Modern Homes"
                 width={40}
                 height={40}
                 className="object-cover w-full h-full"
               />
             </div>
             <span className="font-heading font-bold text-base md:text-xl whitespace-nowrap text-foreground-950 tracking-tight">
-              Kevlin & Company
+              Arch Modern Homes
             </span>
           </a>
 

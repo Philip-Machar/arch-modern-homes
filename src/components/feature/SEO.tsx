@@ -14,9 +14,9 @@ interface SEOProps {
 export default function SEO({ 
   title, 
   description, 
-  name = "Kevlin & Company", 
+  name = "Arch Modern Homes", 
   type = "website", 
-  image = "/logo.jpg", 
+  image = "/logo.jpeg", 
   url = "https://www.Kevlinhomes.com", 
   schema 
 }: SEOProps) {

@@ -54,10 +54,10 @@ export default function PostPage() {
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Kevlin & Company",
+      "name": "Arch Modern Homes",
       "logo": {
         "@type": "ImageObject",
-        "url": "/logo.jpg"
+        "url": "/logo.jpeg"
       }
     },
     "datePublished": new Date(post.timestamp || post.date || Date.now()).toISOString(),
@@ -66,7 +66,7 @@ export default function PostPage() {
   return (
     <div className="min-h-screen bg-background-50">
       <SEO 
-        title={`${post.title} | Kevlin & Company Insights`}
+        title={`${post.title} | Arch Modern Homes Insights`}
         description={post.excerpt}
         image={post.image}
         type="article"

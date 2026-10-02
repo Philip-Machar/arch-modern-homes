@@ -266,7 +266,7 @@ export const offices: Office[] = [
     city: 'Nairobi',
     address: 'Riverside Drive',
     phone: '+254 112 442 606',
-    email: 'info@Kevlinhomes.com',
+    email: 'info@archmodernhomes.com',
     isHQ: true,
   },
 ];
